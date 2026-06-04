@@ -1,6 +1,4 @@
 {
-  "installCommand": "cd figma-harness && npm install",
-  "buildCommand": "cd figma-harness && npm run build",
-  "outputDirectory": "figma-harness/dist",
-  "framework": "vite"
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "figma-harness/dist"
 }
